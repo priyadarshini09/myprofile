@@ -1,0 +1,215 @@
+/*
+
+My Custom CSS
+=============
+
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body{
+   margin-top: 10px;
+}
+
+#features{
+   text-align: center;
+}
+#div1{
+   height: 250px;
+   background-color: #80ff80;
+   border-radius: 25px;
+}
+#div2{
+   height: 250px;
+   background-color: #E9967A;
+   border-radius: 25px;
+}
+#div3{
+   height: 250px;
+   background-color: #ff66ff;
+   border-radius: 25px;
+}
+#div4{
+   height: 250px;
+   background-color: #ffff66;
+   border-radius: 25px;
+}
+#div5{
+   height: 250px;
+   background-color: #668cff;
+   border-radius: 25px;
+}
+#div6{
+   height: 250px;
+   background-color: #990000;
+   border-radius: 25px;
+}
+#div7{
+   height: 250px;
+   background-color: #90EE90;
+   border-radius: 25px;
+}
+#div8{
+   height: 250px;
+   background-color: #ff9900;
+   border-radius: 25px;
+}
+
+.feature li{
+   list-style: none;
+}
+
+#badge_javascript{
+   padding-top: 36px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body{
+   
+   -webkit-font-smoothing:antialised;
+   text-rendering: optimizelegibility;
+
+   font-family: 'Roboto Slab', serif;
+}
+.alignment{
+   padding-left:80px;
+   padding-top:120px;
+}
+
+a{
+   color: black;
+   font-size: 20px;
+}
+a:hover{
+   text-decoration: none;
+   color: red;
+}
+
+.jumbotron{
+   margin-top: 50px;
+   background:url(../../images/jumbotron_image.jpg) top center no-repeat;
+   background-size: cover;
+   height: 350px;
+   width:50 px !important;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+   width: 200px;
+}
+
+.navbar{
+   background-color: #66CDAA
+}
+
+.navbar-brand {
+   padding: 13px 15px;
+}
+ 
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+
+.carousel-caption{
+   font-size: 20px;
+}
+
+.carousel-caption h4{
+   font-size: 30px;
+}
+#myCarousel .item{
+   height: 750px;
+}
+#slide1{
+  background: url(../../images/carousel_large_01.jpg) top center no-repeat;
+  background-size: cover;
+}
+#slide2{
+   background: url(../../images/carousel_large_02.jpg) top center no-repeat;
+   background-size: cover;
+}
+#slide3{
+   background: url(../../images/carousel_large_03.jpg) top center no-repeat;
+   background-size: cover;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	@media (max-width: 480px) {
+   
+   
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{
+      height: 310px;
+   }
+   #slide1{
+      background: url(../../images/carousel_large_01.jpg) top center no-repeat;
+      background-size: cover;
+   }
+   #slide2{
+      background: url(../../images/carousel_large_02.jpg) top center no-repeat;
+      background-size: cover;
+   }
+   #slide3{
+      background: url(../../images/carousel_large_03.jpg) top center no-repeat;
+      background-size: cover;
+   }
+   .carousel-caption{
+      font-size: 10px;
+   }
+
+   .carousel-caption h4{
+      font-size: 20px;
+   }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item{
+      height: 750px;
+   }
+   #slide1{
+      background: url(../../images/carousel_large_01.jpg) top center no-repeat;
+      background-size: cover;
+   }
+   #slide2{
+      background: url(../../images/carousel_large_02.jpg) top center no-repeat;
+      background-size: cover;
+   }
+   #slide3{
+      background: url(../../images/carousel_large_03.jpg) top center no-repeat;
+      background-size: cover;
+   }
+}  
+@media only screen and (max-width : 979px) {
+.dropdown-menu li:hover .dropdown-menu {
+   position:static;
+}
